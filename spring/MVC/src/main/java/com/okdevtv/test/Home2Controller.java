@@ -20,7 +20,7 @@ public class Home2Controller {
 	private static final Logger logger = LoggerFactory.getLogger(Home2Controller.class);
 	
 	
-	@RequestMapping(value = "/home", method = RequestMethod.GET)
+	@RequestMapping(value = "/home2.do", method = RequestMethod.GET)
 	public String home2(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		
